@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img ul{
+    list-style-type: none;
+    /* margin-right: 3rem; */
+}
+.hero-img ul li{
+    display: inline-block;
+    padding: 0 1rem;
+    padding-top: 2rem;
+    color: white;
+    font-family:sans-serif;
+}
+.container{
+   /* max-width:100px; */
+   /* width: 200px; */
+   margin: 0 6rem;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 2rem; */
+    /* height: 800vh; */
+}
+.hero-text{
+    /* margin: 0 auto; */
+    /* padding-top: 4rem; */
+    /* padding-bottom: 5rem; */
+    background-color: rgb(5, 5, 182);
+}
+.logo{
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+}
+.hero-text h1{
+    color:whitesmoke;
+    font-family:sans-serif;
+}
+.hero-text h1 span{
+    color: rgb(29, 155, 240);
+}
+.hero-text button{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    color:white;
+    font-size: large;
+    background-color: rgb(29, 155, 240);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 1ms;
+}
+.hero-text button:hover{
+    background-color: rgb(6, 134, 219);
+    transition: 1ms;
+}
+.hero-text p{
+    padding-top: 4rem;
+    line-height: 1.5rem;
+    color: white;
+    font-family: sans-serif;
+}
+.hero-img{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(mansion.jpg);
+    background-size: cover;
+    height: 100vh;
+    /* opacity: 0.4; */
+}
+.sectionB{
+    padding-top: 5rem;
+}
+.gallery-col{
+    gap: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gallery-text h4{
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+}
+.gallery-text h1{
+    font-family:sans-serif;
+    padding-bottom: 1.5rem;
+}
+.gallery-text h1 span{
+    color: rgb(5, 5, 182);
+}
+.gallery-text p{
+    font-family: sans-serif;
+    line-height: 1.7rem;
+    text-align: left;
+}
+.gallery-text button{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    color:white;
+    font-size: large;
+    background-color: rgb(29, 155, 240);
+    border: 1px solid transparent;
+    transition: 1ms;
+    cursor: pointer;
+}
+.gallery-text button:hover{
+    background-color: rgb(6, 134, 219);
+    transition: 1ms;
+}
+.gallery-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
+}
+.gallery-img img{
+    /* transform: scale(1.1); */
+    cursor: pointer;
+    transition: 1s;
+
+}
+.gallery-img img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img-hidden{
+    overflow: hidden;
+}
+/* sectionC */
+.sectionC{
+    padding-top: 8rem;
+}
+.sectionC h1{
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.main-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.5rem;
+}
+/* sectionD */
+.sectionD-img{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(man\ \(4\).jpg);
+    height: 80vh;
+    background-size: cover;
+}
+.sectionD-text h1{
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+.sectionD-text h1 span{
+    color:rgb(29, 155, 240);
+}
+.sectionD-text{
+    background-color:rgb(5, 5, 182);
+}
+.sectionD #we{
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 2rem;
+}
+.sectionD-text button{
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    color:white;
+    font-size: large;
+    background-color: rgb(29, 155, 240);
+    border: 1px solid transparent;
+    transition: 1ms;
+    cursor: pointer;
+}
+.sectionD-text button:hover{
+    background-color: rgb(6, 134, 219);
+    transition: 1ms;
+}
+.sectionD-text p{
+    padding-bottom: 3rem;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.sectionD-col{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sectionD{
+    padding-top: 9rem;
+}
+/* .sectionE */
+.sectionE{
+    padding-top: 5rem;
+}
+.sectionE-back{
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(man\ \(2\).jpg);
+    background-size: cover;
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+}
+.sectionE-over{
+    background-color: rgba(211, 200, 200, 0.6);
+    width: 90%;
+    margin: 4rem auto;
+    margin-top: 4rem;
+    /* padding-top: 10rem; */
+    /* display: flex;
+    align-self: auto; */
+    height: 80%;
+    
+}
+.sectionE form{
+    /* margin: 0 auto; */
+    padding-top: 5rem;
+    /* align-self: center; */
+    display: flex;
+    /* align-self: center; */
+    justify-content: center;
+
+}
+.sectionE form input{
+    padding:0.6rem 5rem;
+    text-align: left;
+    background-color: transparent;
+    color: black;
+    border:1px solid  rgb(6, 134, 219);
+}
+.sectionE form input::placeholder{
+    color:black;
+    text-align: left;
+    font-family: sans-serif;
+}
+.sectionE form button{
+    padding: 0 3rem;
+    background-color:rgb(29, 155, 240);
+    border: 1px solid transparent;
+    margin-left: 1rem;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    transition: 1ms;
+    cursor: pointer;
+}
+.sectionE form button:hover{
+    background-color: rgb(6, 134, 219);
+    transition: 1ms;
+}
+
+.sectionE-over h1,.sectionE-over p{
+    text-align: center;
+    font-family: sans-serif;
+}
+.sectionE-over h1{
+    color:rgb(5, 5, 182) ;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.sectionE-over p{
+    font-size: large;
+    
+}
+/* footer */
+footer .footer-items{
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr 1fr;
+    padding-top: 4rem;
+} 
+footer{
+    background-color:rgb(5, 5, 182);
+    margin-top: 6rem;
+    gap: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+.footer-items h1{
+    padding-bottom: 1rem;
+}
+.footer-items ul{
+    list-style-type: none;
+}
+.footer-items ul, li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: sans-serif;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.footer-items .company  li{
+    /* display: flex; */
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-top: 2rem;
+    font-size: larger;
+    cursor: pointer;
+}
+.rlogo img{
+    border-radius: 3px;
+}
+footer .copy{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+@media (max-width:62em) {
+    .container{
+        margin: 0 2rem;
+    }
+}
+@media (max-width:69em) {
+    .container{
+        margin: 0 1rem;
+    }
+}
+@media (max-width:46em) {
+    .container{
+        margin: 0 1rem;
+    }
+    .logo{
+        padding-bottom: 4rem;
+    }
+    footer .footer-items{
+        display: grid;
+        grid-template-columns:35% 30% 30% ;
+    }
+}
+@media (max-width:666px) {
+   .sectionD-col{
+    display: grid;
+    grid-template-columns:1fr;
+   }
+   .sectionD h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+   .sectionD-text button{
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+   }
+   .gallery-col{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   /* .gallery-text{
+    text-align: center;
+   } */
+   .hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 2rem; */
+    /* height: 800vh; */
+    flex-direction: column-reverse;
+    }   
+}
